@@ -29,4 +29,4 @@ RUN . $PWD/current/*/*/external/apt/*/etc/profile.d/init.sh && \
 
 USER root
 
-CMD source ${INSTALL_DIR}/current/sw.pre/${ARCH}/cms/dqmgui/*/128/etc/profile.d/init.sh && ${INSTALL_DIR}/current/config/dqmgui/manage restart 'I did read documentation' && while true; do sleep 100; done
+CMD source ${INSTALL_DIR}/current/sw.rovere/${ARCH}/cms/dqmgui/*/128/etc/profile.d/init.sh && ${INSTALL_DIR}/current/config/dqmgui/manage restart 'I did read documentation' && while true; do sleep 100; done
